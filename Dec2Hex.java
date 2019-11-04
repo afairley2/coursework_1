@@ -8,9 +8,7 @@ class Dec2Hex
     public static void main(String args[])
     { 
 	
-        if (isNaN(args)||args.length < 0) 
-			system.err.println("Input not valid");
-			system.exit(1);
+        if (args.length >0)
        
 		{
             try 
@@ -25,6 +23,13 @@ class Dec2Hex
             }
         }
 
+		if(isNaN(args)||args.length < 0) 
+			
+		{
+			system.err.println("Input not valid");
+		 system.exit(1);
+		}
+		
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
          int rem, num;
 	num = Arg1;
