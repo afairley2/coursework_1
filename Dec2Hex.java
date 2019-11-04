@@ -23,7 +23,7 @@ class Dec2Hex
             }
         }
 
-		if(isNaN(args[])||args.length < 0) 
+		if(args.length < 0) 
 			
 		{
 			System.err.println("Input not valid");
