@@ -23,11 +23,11 @@ class Dec2Hex
             }
         }
 
-		if(isNaN(args)||args.length < 0) 
+		if(isNaN(args[])||args.length < 0) 
 			
 		{
-			system.err.println("Input not valid");
-		 system.exit(1);
+			System.err.println("Input not valid");
+		    System.exit(1);
 		}
 		
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
