@@ -7,7 +7,13 @@ class Dec2Hex
 
     public static void main(String args[])
     { 
-	
+			if(args.length < 0) 
+			
+		{
+			System.err.println("Input not valid");
+		    System.exit(1);
+		}
+		
         if (args.length >0)
        
 		{
@@ -23,12 +29,7 @@ class Dec2Hex
             }
         }
 
-		if(args.length < 0) 
-			
-		{
-			System.err.println("Input not valid");
-		    System.exit(1);
-		}
+
 		
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
          int rem, num;
