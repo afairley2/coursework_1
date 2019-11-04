@@ -11,7 +11,7 @@ class Dec2Hex
 			system.err.println("Input not valid");
 			system.exit(1);
        
-	   else if
+	   else if (args.length > 0)
 		{
             try 
             {
