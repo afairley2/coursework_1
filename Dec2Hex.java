@@ -6,12 +6,12 @@ class Dec2Hex
     public static int Arg1;
 
     public static void main(String args[])
-    {
+    { 
+	
         if (isNaN(args)||args.length < 0) 
 			system.err.println("Input not valid");
 			system.exit(1);
        
-	   else if (args.length > 0)
 		{
             try 
             {
